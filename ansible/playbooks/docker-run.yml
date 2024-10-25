@@ -1,0 +1,7 @@
+- hosts: all
+  become: true
+  tasks:
+    - name: Run docker-compose 
+      shell: docker-compose up -d
+      args:
+        chdir: /home/ec2-user/
