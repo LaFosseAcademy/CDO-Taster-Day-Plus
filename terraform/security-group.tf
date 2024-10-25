@@ -25,15 +25,6 @@ resource "aws_security_group_rule" "ssh_ingres" {
   security_group_id = aws_security_group.http_server_sg.id
 }
 
-resource "aws_security_group_rule" "app_port_ingress" {
-  type              = "ingress"
-  from_port         = 3000
-  to_port           = 3000
-  protocol          = "tcp"
-  cidr_blocks       = ["0.0.0.0/0"]
-  security_group_id = aws_security_group.http_server_sg.id
-}
-
 resource "aws_security_group_rule" "egress" {
   type              = "egress"
   from_port         = 0
