@@ -15,9 +15,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "http_server" {
-  ami                    = "ami-01b799c439fd5516a"
+  ami                    = ""
   key_name               = "default-ec2"
-  instance_type          = "t2.micro"
+  instance_type          = ""
   vpc_security_group_ids = [aws_security_group.http_server_sg.id]
   subnet_id              = data.aws_subnets.default_subnets.ids[0]
 

@@ -1,14 +1,14 @@
 version: '3.9'
 services:
   premier-league-mvc:
-    image: emilesherrott/pl-mvc-cloud:0.0.1.RELEASE
+    image:
     ports:
-      - "80:80"
+      - "3000:3000"
     restart: always
     depends_on:
       - premier-league-db
     environment:
-      - PORT=80
+      - PORT=3000
       - DB_USER=postgres
       - DB_HOST=premier-league-db
       - DB_NAME=premier-league
@@ -19,7 +19,7 @@ services:
       - premier-league-network
 
   premier-league-db:
-    image: emilesherrott/pl-db-cloud:0.0.1.RELEASE
+    image: 
     ports:
       - "5432:5432"
     restart: always
