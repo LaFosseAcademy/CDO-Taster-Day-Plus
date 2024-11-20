@@ -15,6 +15,14 @@ Most of these resources are known by professionals in the industry and can be be
 **Accelerate: The Science of Lean Software and Development (PDF)**
 - [Link](https://www.dropbox.com/scl/fo/px8t6os3p44bv4qsrpss5/ALIDK-mbhMmvrg4AxFLso-8?rlkey=wi6ld3wxinrd5bsy415po249i&st=t34239dj&dl=0)
 
+## Articles
+
+**IBM: What is DevOps**
+- [Link](https://www.ibm.com/topics/devops)
+
+**IBM: What is Cloud Computing**
+- [Link](https://www.ibm.com/topics/cloud-computing)
+
 ## Blogs
 
 [DevOps.com](https://devops.com/)
